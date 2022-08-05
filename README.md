@@ -26,7 +26,6 @@ def solution(A,B):
     B.sort()
     for i in range(len(A)):
         answer += A[i]*B[len(B)-1-i]
-
     return answer
 #intput-->A=[1,4,2],B=[5,4,4]
 #result-->29 (1*5+2*4+4*4)
